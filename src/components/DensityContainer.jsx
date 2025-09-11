@@ -59,9 +59,9 @@ function DensityContainer() {
                 {showMore ? 'See less' : 'See more'}
             </p>
             {showMore ? (
-                <ChevronUpIcon className={`${textClass} w-5 h-5 font-bold`} />
+                <ChevronUpIcon className={`${textClass} w-5 h-5 font-bold cursor-pointer`} />
             ) : (
-                <ChevronDownIcon className={`${textClass} w-5 h-5 font-bold`} />
+                <ChevronDownIcon className={`${textClass} w-5 h-5 font-bold cursor-pointer`} />
             )}
             </button>}
             {Object.keys(eachCharResult).length  < 1 && <p className="">No characters found. Start typing to see letter density.</p>}
