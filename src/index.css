@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+
+body {
+    /* background-color: #12131A; */
+    font-family: "DM Sans", sans-serif;
+}
+
+@theme {
+  /* Your existing colors */
+  --color-primary-50: #f0f9ff;
+  --color-primary-100: #e0f2fe;
+  --color-primary-500: #0ea5e9;
+  --color-primary-600: #0284c7;
+  --color-primary-900: #0c4a6e;
+  
+  --color-secondary-50: #f8fafc;
+  --color-secondary-100: #f1f5f9;
+  --color-secondary-500: #64748b;
+  --color-secondary-600: #475569;
+  --color-secondary-900: #0f172a;
+  
+  --color-accent-success: #10b981;
+  --color-accent-warning: #f59e0b;
+  --color-accent-error: #ef4444;
+  --color-accent-info: #3b82f6;
+
+  /* New Natural Colors */
+  --color-natural-900: #12131A;
+  --color-natural-800: #21222C;
+  --color-natural-700: #2A2B37;
+  --color-natural-600: #404254;
+  --color-natural-200: #E4E4EF;
+  --color-natural-100: #F2F2F7;
+  --color-natural-0: #FFFFFF;
+
+  /* New Blue Colors */
+  --color-blue-400: #D3A0FA;
+  --color-blue-500: #C27CF8;
+
+  /* New Yellow Color */
+  --color-yellow-500: #FF9F00;
+
+  /* New Orange Colors */
+  --color-orange-500: #FE8159;
+  --color-orange-800: #DA3701;
+}
+
+/* Optional: Keep CSS variables for JavaScript access */
+:root {
+  --natural-900: #12131A;
+  --natural-800: #21222C;
+  --natural-700: #2A2B37;
+  --natural-600: #404254;
+  --natural-200: #E4E4EF;
+  --natural-100: #F2F2F7;
+  --natural-0: #FFFFFF;
+  --blue-400: #D3A0FA;
+  --blue-500: #C27CF8;
+  --yellow-500: #FF9F00;
+  --orange-500: #FE8159;
+  --orange-800: #DA3701;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
